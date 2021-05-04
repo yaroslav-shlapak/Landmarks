@@ -13,6 +13,7 @@
 		68319C8F263FB05D0007E3A3 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68319C8E263FB05D0007E3A3 /* LandmarkRow.swift */; };
 		68319C97263FBA140007E3A3 /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68319C96263FBA140007E3A3 /* LandmarksList.swift */; };
 		68319C9C263FC8820007E3A3 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68319C9B263FC8820007E3A3 /* LandmarkDetail.swift */; };
+		68319CA126410D060007E3A3 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68319CA026410D060007E3A3 /* FavoriteButton.swift */; };
 		6851F0EB263EE63F00A91D26 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851F0EA263EE63F00A91D26 /* CircleImage.swift */; };
 		6851F0F0263F1F4B00A91D26 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6851F0EF263F1F4B00A91D26 /* MapView.swift */; };
 		686AB1F82639F32D00CA88E2 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686AB1F72639F32D00CA88E2 /* LandmarksApp.swift */; };
@@ -47,6 +48,7 @@
 		68319C8E263FB05D0007E3A3 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		68319C96263FBA140007E3A3 /* LandmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksList.swift; sourceTree = "<group>"; };
 		68319C9B263FC8820007E3A3 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		68319CA026410D060007E3A3 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		6851F0EA263EE63F00A91D26 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		6851F0EF263F1F4B00A91D26 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		686AB1F42639F32D00CA88E2 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,11 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				686AB1F92639F32D00CA88E2 /* ContentView.swift */,
-				6851F0EA263EE63F00A91D26 /* CircleImage.swift */,
-				6851F0EF263F1F4B00A91D26 /* MapView.swift */,
-				68319C8E263FB05D0007E3A3 /* LandmarkRow.swift */,
-				68319C96263FBA140007E3A3 /* LandmarksList.swift */,
-				68319C9B263FC8820007E3A3 /* LandmarkDetail.swift */,
+				68319CAB26410EAA0007E3A3 /* Helpers */,
+				68319CAA26410E9C0007E3A3 /* Landmarks */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +115,26 @@
 				68319C79263FA7A60007E3A3 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		68319CAA26410E9C0007E3A3 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				68319C8E263FB05D0007E3A3 /* LandmarkRow.swift */,
+				68319C96263FBA140007E3A3 /* LandmarksList.swift */,
+				68319C9B263FC8820007E3A3 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
+		68319CAB26410EAA0007E3A3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6851F0EA263EE63F00A91D26 /* CircleImage.swift */,
+				6851F0EF263F1F4B00A91D26 /* MapView.swift */,
+				68319CA026410D060007E3A3 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		686AB1EB2639F32D00CA88E2 = {
@@ -313,6 +332,7 @@
 				686AB1F82639F32D00CA88E2 /* LandmarksApp.swift in Sources */,
 				6851F0EB263EE63F00A91D26 /* CircleImage.swift in Sources */,
 				68319C9C263FC8820007E3A3 /* LandmarkDetail.swift in Sources */,
+				68319CA126410D060007E3A3 /* FavoriteButton.swift in Sources */,
 				68319C82263FA7DA0007E3A3 /* Landmark.swift in Sources */,
 				68319C8F263FB05D0007E3A3 /* LandmarkRow.swift in Sources */,
 				68319C87263FAA730007E3A3 /* ModelData.swift in Sources */,
